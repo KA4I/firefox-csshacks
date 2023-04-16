@@ -4,9 +4,9 @@ See the above repository for updates as well as full license text. */
 /* Replace the button background-colors with a glow effect */
 /* Edit the color choices how you see fit */
 :root{
-  --uc-icon-glow-primary: cyan;
+  --uc-icon-glow-primary: rgb(255, 255, 255);
   --uc-icon-glow-secondary: cadetblue;
-  --uc-icon-glow-hover-primary: red;
+  --uc-icon-glow-hover-primary: rgb(255, 0, 0);
   --uc-icon-glow-hover-secondary: yellow;
 }
 
@@ -45,7 +45,7 @@ toolbar #downloads-button:hover #downloads-indicator-anchor,
 toolbarbutton.scrollbutton-up:not([disabled]):hover,
 toolbarbutton.scrollbutton-down:not([disabled]):hover,
 toolbarbutton#scrollbutton-up:not([disabled]):hover,
-toolbarbutton#scrollbutton-down:not([disabled]):hover{ 
+toolbarbutton#scrollbutton-down:not([disabled]):hover{
   filter: drop-shadow(0 0 2px var(--uc-icon-glow-secondary)) drop-shadow(0 0 1px var(--uc-icon-glow-primary))
 }
 
@@ -68,6 +68,6 @@ toolbar #downloads-button[open] #downloads-indicator-anchor,
 toolbarbutton.scrollbutton-up:active,
 toolbarbutton.scrollbutton-down:active,
 toolbarbutton#scrollbutton-up:active,
-toolbarbutton#scrollbutton-down:active{ 
+toolbarbutton#scrollbutton-down:active{
   filter: drop-shadow(0 0 2px var(--uc-icon-glow-hover-secondary)) drop-shadow(0 0 1px var(--uc-icon-glow-hover-primary))
 }
